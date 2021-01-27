@@ -127,3 +127,18 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# add Node files here
+
+# node modules
+/node_modules
+package-lock.json
+
+# static files
+/shortener/frontend/static/frontend/js/shortener.bundle.js
+/shortener/frontend/static/frontend/js/*.ttf
+
+# migrations
+/shortener/**/migrations/*
+!/shortener/**/migrations/__init__.py
+

@@ -1,0 +1,5 @@
+
+- limit number of requests
+- show errors to user
+- remove unused packages form package.json
+- fix classNames

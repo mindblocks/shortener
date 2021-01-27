@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>URL shortener</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="{% static 'frontend/css/particleNetworkAnimation.css' %}">
+  </head>
+  <body>
+    <div id="pna" class="particle-network-animation"></div>
+    <div id="shortenerApp"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{% static 'frontend/js/particleNetworkAnimation.js' %}"></script>
+    <script src="{% static 'frontend/js/shortener.bundle.js' %}"></script>
+    <script src="{% static 'frontend/js/input.js' %}"></script>
+  </body>
+</html>
